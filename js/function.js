@@ -55,8 +55,8 @@ $(document).on('ready', function () {
 
      // JavaScript Document
    var today = new Date();
-   var target = new Date('06/25/2019 08:34:00'); //Enter Target date & time - MM/DD/YYYY hh:mm:ss
-   var startdate = new Date('06/18/2019'); //Enter Timer start date or Today's date - MM/DD/YYYY
+   var target = new Date('11/23/2019 11:07:00'); //Enter Target date & time - MM/DD/YYYY hh:mm:ss
+   var startdate = new Date('10/18/2019'); //Enter Timer start date or Today's date - MM/DD/YYYY
    if ($.find('.countdown').length) {
        $('.countdown').final_countdown({
            'start': startdate.getTime() / 1000,
@@ -80,7 +80,7 @@ $(document).on('ready', function () {
    /*Timer for wedding page*/
    if ($.find('#example').length) {
        $('#example').countdown({
-           date: '06/25/2019 08:34:00', //Enter Target date & time - MM/DD/YYYY hh:mm:ss
+           date: '11/23/2019 11:07:00', //Enter Target date & time - MM/DD/YYYY hh:mm:ss
            offset: +5.5,
            day: 'Day',
            days: 'Days'
